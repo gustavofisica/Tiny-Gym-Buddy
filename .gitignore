@@ -1,6 +1,30 @@
-.pio
+# PlatformIO
 .pio/
 .vscode/
+
+# OS specific
 **/.DS_Store
+.DS_Store
+
+# Build artifacts
 **/*.o
 **/*.a
+*.bin
+*.elf
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor backups
+*~
+*.swp
+*.swo
+.vscode/settings.json
+
+# Environment
+.env
+.env.local
